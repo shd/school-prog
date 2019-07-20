@@ -14,6 +14,7 @@
 \newtheorem{definition}{Определение}[section]
 
 \title{Алгоритм рекурсивного спуска: краткое введение}
+\author{Д.Г. Штукенберг, ЛНМО}
 
 \maketitle
 
@@ -179,10 +180,10 @@ C &->& ((0 | 1) C) | \varepsilon
 (кроме первого символа \verb!+!), а у нетерминала $C$ есть пять
 подстрок, соответствующих ему:
 
-  $$\texttt{+1}\underbrace{\texttt{0}}_\textit{№1}\texttt{.01},\,
-    \texttt{+10}\underbrace{\texttt{}}_\textit{№2}\texttt{.01},\,
-    \texttt{+10.}\underbrace{\texttt{01}}_\textit{№3}\texttt{},\,
-    \texttt{+10.0}\underbrace{\texttt{1}}_\textit{№4}\texttt{},\,
+  $$\texttt{+1}\underbrace{\texttt{0}}_\textit{№1}\texttt{.01},\quad
+    \texttt{+10}\underbrace{\texttt{}}_\textit{№2}\texttt{.01},\quad
+    \texttt{+10.}\underbrace{\texttt{01}}_\textit{№3}\texttt{},\quad
+    \texttt{+10.0}\underbrace{\texttt{1}}_\textit{№4}\texttt{},\quad
     \texttt{+10.01}\underbrace{\texttt{}}_\textit{№5}\texttt{}$$
 
 Заметьте, что варианты прочтения №2 и №5 пусты --- данные нетерминалы в дереве
